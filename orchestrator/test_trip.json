@@ -1,0 +1,190 @@
+{
+  "tripId": "trip_12345",
+  "title": "Exploring Japan: Art, Photography and Shopping",
+  "from_location": "SGN",
+  "to_location": "SGN",
+  "startDate": "2025-06-30T00:00:00+00:00",
+  "endDate": "2025-07-07T00:00:00+00:00",
+  "spans": [
+    {
+      "spanId": "span_1",
+      "spanTitle": "Exploration of Tokyo",
+      "spanDescription": "Discover the vibrant city of Tokyo, its art, shopping destinations and photography spots",
+      "from_location": "SGN",
+      "to_location": "TYO",
+      "startDate": "2025-06-30",
+      "endDate": "2025-07-03",
+      "transportation": [
+        {
+          "type": "flight",
+          "provider": "Japan Airlines",
+          "departureLocation": "SGN",
+          "arrivalLocation": "TYO",
+          "departureTime": "2025-06-30T10:00:00Z",
+          "arrivalTime": "2025-06-30T16:00:00Z",
+          "service_class": "economy",
+          "passengers": 1
+        }
+      ],
+      "accommodation": [
+        {
+          "type": "hotel",
+          "location": "TYO",
+          "checkin": "2025-06-30T18:00:00Z",
+          "checkout": "2025-07-03T11:00:00Z",
+          "guests": 1
+        }
+      ],
+      "activities": [
+        {
+          "name": "Tokyo National Museum",
+          "description": "Visit Japan's oldest and largest art museum",
+          "location": "TYO",
+          "startTime": "2025-07-01T10:00:00Z",
+          "endTime": "2025-07-01T13:00:00Z",
+          "participants": 1,
+          "category": "museum"
+        },
+        {
+          "name": "Akihabara Shopping District",
+          "description": "Explore the vibrant shopping district known for its electronics retailers, anime and manga",
+          "location": "TYO",
+          "startTime": "2025-07-01T14:00:00Z",
+          "endTime": "2025-07-01T18:00:00Z",
+          "participants": 1,
+          "category": "shopping"
+        },
+        {
+          "name": "Shibuya Crossing Photography",
+          "description": "Capture the world's busiest pedestrian crossing",
+          "location": "TYO",
+          "startTime": "2025-07-02T10:00:00Z",
+          "endTime": "2025-07-02T12:00:00Z",
+          "participants": 1,
+          "category": "photography"
+        },
+        {
+          "name": "Shibuya 109 Shopping Mall",
+          "description": "Visit the iconic shopping mall known for its fashion stores and boutiques",
+          "location": "TYO",
+          "startTime": "2025-07-02T14:00:00Z",
+          "endTime": "2025-07-02T18:00:00Z",
+          "participants": 1,
+          "category": "shopping"
+        }
+      ],
+      "notes": "Remember to try the local cuisine and take plenty of photos of the vibrant city life."
+    },
+    {
+      "spanId": "span_2",
+      "spanTitle": "Exploring Kyoto",
+      "spanDescription": "Discover the historic city of Kyoto, its art, shopping destinations and photography spots",
+      "from_location": "TYO",
+      "to_location": "UKB",
+      "startDate": "2025-07-03",
+      "endDate": "2025-07-06",
+      "transportation": [
+        {
+          "type": "train",
+          "provider": "Japan Railways",
+          "departureLocation": "TYO",
+          "arrivalLocation": "UKB",
+          "departureTime": "2025-07-03T14:00:00Z",
+          "arrivalTime": "2025-07-03T18:00:00Z",
+          "service_class": "economy",
+          "passengers": 1
+        }
+      ],
+      "accommodation": [
+        {
+          "type": "hotel",
+          "location": "UKB",
+          "checkin": "2025-07-03T20:00:00Z",
+          "checkout": "2025-07-06T11:00:00Z",
+          "guests": 1
+        }
+      ],
+      "activities": [
+        {
+          "name": "Kyoto National Museum",
+          "description": "Explore the art and culture of Japan at one of the country's oldest and most distinguished museums",
+          "location": "UKB",
+          "startTime": "2025-07-04T10:00:00Z",
+          "endTime": "2025-07-04T13:00:00Z",
+          "participants": 1,
+          "category": "museum"
+        },
+        {
+          "name": "Nishiki Market Shopping",
+          "description": "Experience the vibrant atmosphere of Kyoto's largest traditional food market",
+          "location": "UKB",
+          "startTime": "2025-07-04T14:00:00Z",
+          "endTime": "2025-07-04T18:00:00Z",
+          "participants": 1,
+          "category": "shopping"
+        },
+        {
+          "name": "Fushimi Inari Shrine Photography",
+          "description": "Capture the beautiful and iconic red torii gates at the Fushimi Inari Shrine",
+          "location": "UKB",
+          "startTime": "2025-07-05T10:00:00Z",
+          "endTime": "2025-07-05T12:00:00Z",
+          "participants": 1,
+          "category": "photography"
+        },
+        {
+          "name": "Kyoto Handicraft Center Shopping",
+          "description": "Shop for traditional Japanese crafts and souvenirs",
+          "location": "UKB",
+          "startTime": "2025-07-05T14:00:00Z",
+          "endTime": "2025-07-05T18:00:00Z",
+          "participants": 1,
+          "category": "shopping"
+        }
+      ],
+      "notes": "Don't forget to enjoy the traditional tea ceremony and the local cuisine."
+    },
+    {
+      "spanId": "span_3",
+      "spanTitle": "Return to Ho Chi Minh City, Vietnam",
+      "spanDescription": "Final day and return journey",
+      "from_location": "UKB",
+      "to_location": "SGN",
+      "startDate": "2025-07-06",
+      "endDate": "2025-07-07",
+      "transportation": [
+        {
+          "type": "flight",
+          "provider": "ANA",
+          "departureLocation": "UKB",
+          "arrivalLocation": "SGN",
+          "departureTime": "2025-07-07T14:00:00Z",
+          "arrivalTime": "2025-07-07T18:00:00Z",
+          "service_class": "economy",
+          "passengers": 1
+        }
+      ],
+      "activities": [
+        {
+          "name": "Kiyomizu-dera Temple",
+          "description": "Visit the historic and iconic Kiyomizu-dera Temple",
+          "location": "UKB",
+          "startTime": "2025-07-06T10:00:00Z",
+          "endTime": "2025-07-06T12:00:00Z",
+          "participants": 1,
+          "category": "museum"
+        },
+        {
+          "name": "Kiyomizu-dera Shopping Street",
+          "description": "Explore the shopping street leading to Kiyomizu-dera Temple for last minute souvenirs",
+          "location": "UKB",
+          "startTime": "2025-07-06T14:00:00Z",
+          "endTime": "2025-07-06T18:00:00Z",
+          "participants": 1,
+          "category": "shopping"
+        }
+      ],
+      "notes": "Check all belongings before leaving the hotel and arrive at the airport 2 hours before the flight."
+    }
+  ]
+} 
