@@ -192,8 +192,6 @@ data/
 *.json.bak
 *.csv.bak
 
-# Model files and caches
-models/
 *.pkl
 *.pickle
 *.joblib
